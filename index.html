@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+ <div class="make">
+   <u> <h1>ROCK PAPER SCISSOR </h1></u>
+   <h3><li>Enter a number to start a game and press play button</li></h3>
+   <h3><li>how many rounds you want to play enter that number</li></h3>
+  </div>
+
+ <div class="center">
+  
+  
+ <input  type="number" placeholder="enter a number to play" id="text">
+ 
+  <button data-ns-test="play-game" id="play"  >play</button> <br><br>
+
+  <div id="gamechanger">
+  <button id="rock" data-ns-test="rock" value="rock" class="btn">rock</button> &nbsp;
+  <button id="paper" data-ns-test="paper" value="paper" class="btn">paper</button> &nbsp;
+  <button id="scissors" data-ns-test="scissors" value="scissors" class="btn">scissors</button> &nbsp;
+
+  <p>Computer Choice: <span data-ns-test="computer-choose" id="compchoice" style="color: blue">0</span></p>
+  <p>User Choice: <span data-ns-test="user-choose" id="userchoice" style="color: rgb(71, 47, 255)">0</span></p>
+  <p>User Points: <span data-ns-test="user-points" id="userpoint" style="color: blue">0</span></p>
+  <p>Computer Points: <span data-ns-test="computer-points" id="comppoint" style="color: rgb(63, 205, 77)">0</span></p>
+  <p>Rounds-Left: <span data-ns-test="rounds-left" id="roundsleft" style="color:blue">0</span></p>
+  
+  
+  
+  <p>result of the round:<span data-ns-test="round-result" id="roundresult" style="color:red">0</span></p>
+ 
+ </div>
+</div>
+
+  <!-- <span id="finalres"></span> -->
+  
+ 
+ 
+
+ <script src="script.js"></script>
+</body>
+</html>
